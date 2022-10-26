@@ -1,0 +1,393 @@
+@media screen and (max-width: 39.9375em) {
+    header .menu {
+        /* position menu on top, full screen */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100vh;
+        /* position content in vertical center */
+        flex-direction: column;
+        justify-content: center;
+        /* add styling details */
+        background-color: #AFD5DE;
+        color: #FFFFFF;
+    }
+
+    header .menu li {
+        /* override Foundation class and align content on left */
+        justify-content: flex-start !important;
+        /* add styling details */
+        font-size: 2rem;
+        color: #FFFFFF;
+
+    }
+
+    header .menu li a {
+        /* add styling details */
+        color: #FFFFFF;
+        font-family: 'Lato', sans-serif;
+
+    }
+
+    header button {
+        cursor: pointer;
+        padding-right: 2rem;
+    }
+
+    header button.show-for-small-only {
+        position: relative;
+        z-index: 2;
+        color: #FFFFFF;
+    }
+
+    header button.show-for-small-only.btnToggle {
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        color: #FFFFFF;
+
+
+    }
+}
+
+.booknotfoundmessage {
+    margin-top: 3rem;
+    text-align: center;
+    color: #FF69B4;
+}
+
+.adminerror {
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+.adminerror h2 {
+    color: #FF69B4;
+
+}
+
+#errors4 {
+    margin-bottom: 1rem;
+}
+
+.books a {
+    color: #5A5A5A;
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+    padding: .5rem;
+    border-radius: .5rem;
+    background-color: #AFD5DE;
+}
+
+.books a:hover {
+    background-color: #5A5A5A;
+    font-size: 1.4rem;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+
+
+}
+
+#logo2 {
+    padding-top: 1rem;
+}
+.logo{
+  padding-left: 2.5rem;
+}
+.bookiewelcome {
+    color: #AFD5DE;
+    text-align: center;
+}
+
+input[type=text]{
+  height: 2rem;
+  margin-top: .5rem;
+  border-radius: 1.5rem;
+}
+input[type=password]{
+  height: 2rem;
+  margin-top: .5rem;
+  border-radius: 1.5rem;
+}
+
+.whatyoucando1 h2 {
+    color: #AFD5DE;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+.whatcanyoudo p {
+    color: #5A5A5A;
+    width: 25rem;
+    margin-left: 10rem;
+}
+
+.whatcanyoudo img {
+    width: 20rem;
+    padding-right: 1rem; 
+    margin-left: 20rem; 
+}
+.whatcanyoudo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Noto Serif Telugu', serif;
+    color: #AFD5DE;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    color: #5A5A5A;
+}
+
+nav {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #5A5A5A;
+    ;
+}
+
+.topnavheader img {
+    width: 8rem;
+    padding-bottom: 2rem;
+}
+
+.books {
+    padding-top: 3rem;
+
+}
+
+.book1 {
+    background-color: #AFD5DE;
+    color: #FFFFFF;
+}
+
+.book3 {
+    background-color: #AFD5DE;
+    color: #FFFFFF;
+}
+
+.orbit-bullets {
+    background-color: #FFFFFF;
+    margin: 0rem;
+    padding-bottom: 2rem;
+}
+.orbit-image{
+  height: 25rem;
+}
+header {
+    background-color: #AFD5DE;
+    font-family: 'Lato', sans-serif;
+    height: 8rem;
+}
+
+.hellosignin h1 {
+    color: #AFD5DE;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.hellosignin h2 {
+    color: #AFD5DE;
+    text-align: center;
+}
+
+.loginbutton {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.loginbutton a {
+    background-color: #AFD5DE;
+    color: #FFFFFF;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.loginbutton a:hover {
+      background-color: #5A5A5A;
+      color: #FFFFFF;
+}
+
+.createaccountbutton {
+    text-align: center;
+    padding-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.createaccountbutton a {
+    background-color: #AFD5DE;
+    color: #FFFFFF;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.createaccountbutton a:hover {
+  background-color: #5A5A5A;
+  color: #FFFFFF;
+}
+
+.search:hover {
+    color: #000000;
+}
+
+.topnavheader a {
+    color: #FDFAF2;
+    padding-top: 4rem;
+    font-size: 1rem;
+    padding-right: 2rem;
+}
+
+.topnavheader a:hover {
+    color: #000000;
+}
+
+.topnavheader form {
+    padding-top: 3.5rem;
+    padding: 3rem;
+}
+
+
+
+.topnavheader button {
+    color: #FFFFFF;
+}
+
+
+
+.loginform {
+    width: 20rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #AFD5DE;
+    padding: 3rem;
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.username {
+    color: #5A5A5A;
+    font-family: 'Lato', sans-serif;
+}
+
+.name {
+    color: #5A5A5A;
+    font-family: 'Lato', sans-serif;
+}
+
+.password {
+    color: #5A5A5A;
+    font-family: 'Lato', sans-serif;
+}
+
+#uniquebutton {
+    background-color: #FFFFFF;
+    color: #AFD5DE;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    padding: 1rem 6rem;
+    border-radius: 1rem;
+
+}
+
+#uniquebutton:hover{
+  background-color: #5A5A5A;
+  color: #FFFFFF;
+}
+
+#uniquebutton2 {
+    background-color: #FFFFFF;
+    color: #AFD5DE;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+
+}
+
+#uniquebutton2:hover{
+  background-color: #5A5A5A;
+  color: #FFFFFF;
+}
+
+
+
+.footer a {
+    color: #FFFFFF;
+    padding: 3rem;
+    padding-bottom: 4rem;
+}
+
+.footer {
+    background-color: #AFD5DE;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 3rem;
+}
+
+.privacylink a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.privacylink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.privacylink a:hover {
+    color: #4b5179;
+}
+
+.allrights p {
+    color: #FFFFFF;
+    font-size: 1rem;
+}
